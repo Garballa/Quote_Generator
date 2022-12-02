@@ -25,3 +25,9 @@ const quotes = [
   "Teach this triple truth to all: A generous heart, kind speech, and a life of service and compassion are the things which renew humanity.",
   "The way is not in the sky. The way is in the heart.",
 ];
+
+function newQuote() {
+  const randomNumber = Math.floor(Math.random() * quotes.length);
+}
+
+document.getElementById("quoteDisplay").innerHTML = quotes[randomNumber];
