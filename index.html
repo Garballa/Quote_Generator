@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script
+      src="https://kit.fontawesome.com/9e64d2e9d9.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Dr+Sugiyama&display=swap");
+    </style>
     <link rel="stylesheet" href="styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,12 +19,24 @@
   </head>
   <body>
     <div id="container-one">
-      <h1>Quotes from Buddha</h1>
-      <div id="quoteDisplay">
-        <!-- Quotes will display here -->
+      <div class="flex-child">
+        <h1>Quotes from<br>The Buddha</h1>
       </div>
-      <button id="quote-button" onclick="newQuote()">New Quote</button>
+      <div class="flex-child">
+        <div id="quoteDisplay">
+          "If you find no one to support you on the spiritual path, walk alone."
+          <!-- Quotes will display here -->
+        </div>
+      </div>
+      <div class="flex-child">
+        <button id="quote-button" onclick="newQuote()"><i class="fa-solid fa-om fa-lg"></i> <br>New Quote</button>
+      </div>
     </div>
+    <footer>
+      <h3>Website by Garballa 2022</h3>
+      <a href="https://www.linkedin.com/in/garrett-ballard-01439a1b6/"<i class="fa-brands fa-linkedin fa-lg"></i></a>
+      <a href="https://github.com/Garballa"<i class="fa-brands fa-github fa-lg"></i></a>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
